@@ -1,0 +1,15 @@
+{
+  "name": "using-base58check-js-rust-wasm",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+      "test": "jest --verbose"
+  },
+  "dependencies": {
+    "mybase58check": "link:./mybase58check/pkg",
+    "base58check": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
